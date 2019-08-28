@@ -5,6 +5,7 @@ import 'package:BeflexFlutterApp/homeScreen.dart';
 
 void main() {
   runApp(new MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: new SplashScreen(),
     routes: <String, WidgetBuilder>{
       '/HomeScreen': (BuildContext context) => new HomeScreen()
@@ -19,7 +20,7 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   startTime() async {
-    var _duration = new Duration(seconds: 5);
+    var _duration = new Duration(seconds: 10);
     return new Timer(_duration, navigationPage);
   }
 
@@ -37,10 +38,26 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return new Scaffold(
       backgroundColor: Color.fromRGBO(236, 0, 58, 1),
-      body: new Center(
-        child: new Image(
-          image: AssetImage('assets/images/initializingpageRunspectlogo.png'),
-        ),
+      body: new Flex(
+        direction: Axis.vertical,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisSize: MainAxisSize.max,
+        children: <Widget>[
+          Expanded(
+            child: Center(
+                child: Image(
+              image:
+                  AssetImage('assets/images/initializingpageRunspectlogo.png'),
+            )),
+          ),
+          Container(
+            margin: EdgeInsets.only(bottom: 60),
+            child: Image(
+              image: AssetImage('assets/images/White.png'),
+            ),
+          )
+        ],
       ),
     );
   }
