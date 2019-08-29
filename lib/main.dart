@@ -3,6 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:BeflexFlutterApp/homeScreen.dart';
 
+Color mainColor = Color.fromRGBO(236, 0, 58, 1);
+
 void main() {
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
@@ -13,6 +15,7 @@ void main() {
   ));
 }
 
+// Splash Screen
 class SplashScreen extends StatefulWidget {
   @override
   _SplashScreenState createState() => _SplashScreenState();
