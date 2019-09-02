@@ -114,7 +114,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		rftYbJ0+JbNlQ9n5mO6FIIgEfYk=
+		+k4qGIAB7zaCzToR0JvMJhfhzQU=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -122,11 +122,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		CFaVIPPxRZ0gI/cILTRZTQ7TgP4=
+		U8p3PbMMeMydvfD9c7S+hIZcR7c=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		mkYtgqIjZIaj/7Xg/jkDyOYUgyM=
+		t85rOXCFaAWpE/ELGvPLAHoixxI=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -136,25 +136,61 @@
 		<data>
 		kv8KV4I3oPP8VFVqiSus0qZmwxk=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/StartImage.png</key>
+		<data>
+		r7ae49j+OE8Frt3uScpMo+WY0uY=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/White.png</key>
 		<data>
 		dPS0AGQxjZs7GanDMjjYH1Y6wjU=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/getpermissionpageAlert.png</key>
+		<data>
+		qzrgtNTJDUfpmjpATPNdqFVq6ys=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/getpermissionpageLocation.png</key>
+		<data>
+		fY5d9cLLf10nvGixt3Gs/ofWbhI=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/initializingpageRunspectlogo.png</key>
 		<data>
 		VA3PqhtNJ/YkWNJzERA3Jh1bT2c=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/StartImage.png</key>
+		<data>
+		Bq+U+AXWJgS4nppyeH+ipih+G68=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/White.png</key>
 		<data>
 		R8tCU/Fmvs4fo/9yPfAAVmd4IYY=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/getpermissionpageAlert.png</key>
+		<data>
+		mQizkaWBOe8EdbGOc3wgs7ZSwJI=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/getpermissionpageLocation.png</key>
+		<data>
+		Kr6XMfn9B/BMoIutg39RxtX6pKo=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/initializingpageRunspectlogo.png</key>
 		<data>
 		IUueM9R8NV/4Ya4QjfiaQYm9Iqw=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/StartImage.png</key>
+		<data>
+		uXmucrbYMd7FUdzpx72tQSpvdvM=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/White.png</key>
 		<data>
 		1N10nRU+jFEXHB9ADDAbkOGj2GM=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/getpermissionpageAlert.png</key>
+		<data>
+		hQEk3Zyqgv5R/NJrH7/M7R4VfKg=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/getpermissionpageLocation.png</key>
+		<data>
+		u+2LjOt5zezAA4myvAnzKWJ5Wfc=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/initializingpageRunspectlogo.png</key>
 		<data>
@@ -170,7 +206,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		BcYfzxF0DrHNLXhRfvDMccQZ3j8=
+		Eo7o3FxD831+4ugsoYFMuSbc1iE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -508,11 +544,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rftYbJ0+JbNlQ9n5mO6FIIgEfYk=
+			+k4qGIAB7zaCzToR0JvMJhfhzQU=
 			</data>
 			<key>hash2</key>
 			<data>
-			4aCwYoxkG32YiqJYEBAC1yHSCnKXZIBFghcXZwDmyy4=
+			oac37gfpxMg1UCkz3Xil0L0RWvxEBiv9cGbOhSKRsCs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -530,22 +566,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CFaVIPPxRZ0gI/cILTRZTQ7TgP4=
+			U8p3PbMMeMydvfD9c7S+hIZcR7c=
 			</data>
 			<key>hash2</key>
 			<data>
-			3MKV/NhMkTXWehM2U1vvSdRilN1s2IvVXVfsGlWteLQ=
+			TvAVUCEqM7aTHnxjBSFc6rkCcCg3veIzwizV05htaWM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mkYtgqIjZIaj/7Xg/jkDyOYUgyM=
+			t85rOXCFaAWpE/ELGvPLAHoixxI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ckiB01il1txNGQTCIsqMfmNHjxvF0UyBx85e9fGmPfg=
+			AMnh5QQVX5sLnZPMie4quSWrIMaKcdxOvSs2YBirKAc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -570,6 +606,17 @@
 			YTYe3cEmMHgQ34297RDzmQ5gfeMydeY8C1QQ0LlaCMY=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/StartImage.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r7ae49j+OE8Frt3uScpMo+WY0uY=
+			</data>
+			<key>hash2</key>
+			<data>
+			P9t+RzIjUSP7lc6CGDJaZAbQPlVCrGTrNKs6vN9Ndpg=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/White.png</key>
 		<dict>
 			<key>hash</key>
@@ -579,6 +626,28 @@
 			<key>hash2</key>
 			<data>
 			3BVb6jT1uCpOnAqM5jrQ5/5AWMOOLo5jwvFl2SP1UAo=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/getpermissionpageAlert.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			qzrgtNTJDUfpmjpATPNdqFVq6ys=
+			</data>
+			<key>hash2</key>
+			<data>
+			mRqxdP0V+UY94C8R3YHJQGt3M+ZfXkvoKy78u9tUrQ0=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/getpermissionpageLocation.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fY5d9cLLf10nvGixt3Gs/ofWbhI=
+			</data>
+			<key>hash2</key>
+			<data>
+			9uc9jz2nxeeYNQajWC+gRvqHMym4I7MjDHh2IUnJC0A=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/initializingpageRunspectlogo.png</key>
@@ -592,6 +661,17 @@
 			LekyVwbzkCwOnFD3eJlOavluDTeIequBM7UEvxtM9zM=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/StartImage.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Bq+U+AXWJgS4nppyeH+ipih+G68=
+			</data>
+			<key>hash2</key>
+			<data>
+			0Ag7FtQ6pCrpuBvOVEabASXmkh1xfVA6DFsm44aU2Rc=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/White.png</key>
 		<dict>
 			<key>hash</key>
@@ -601,6 +681,28 @@
 			<key>hash2</key>
 			<data>
 			eR9lh7A0XuIIr7OvAkWQFQG7bnRNyyAe3sQp6xEJu1Y=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/getpermissionpageAlert.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mQizkaWBOe8EdbGOc3wgs7ZSwJI=
+			</data>
+			<key>hash2</key>
+			<data>
+			T51eIsB6hvnD+RIJxCzAYJiXf0YyAFZiHQenLyt8cIg=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/getpermissionpageLocation.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Kr6XMfn9B/BMoIutg39RxtX6pKo=
+			</data>
+			<key>hash2</key>
+			<data>
+			9J+BSEqBjqQtuM5EJcwY+YO+1KQzhikIhDH509mPgFA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/initializingpageRunspectlogo.png</key>
@@ -614,6 +716,17 @@
 			moqR7sKfw+gVTtO/znBe9c6qJ/Mu21ccEDd5F6fFFwI=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/StartImage.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uXmucrbYMd7FUdzpx72tQSpvdvM=
+			</data>
+			<key>hash2</key>
+			<data>
+			rBCfxN7JSrNqvUO/xMlupAJhRf3IzhWyBEvDo1g/lb0=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/White.png</key>
 		<dict>
 			<key>hash</key>
@@ -623,6 +736,28 @@
 			<key>hash2</key>
 			<data>
 			ZqjLQUGc5KDczaMcWL5pa7T3vF2G0hNtNjWo/9R0JM4=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/getpermissionpageAlert.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hQEk3Zyqgv5R/NJrH7/M7R4VfKg=
+			</data>
+			<key>hash2</key>
+			<data>
+			KdxyrMXlu4wMVmnoq0riOlKs0t5myuT2U8wFzkTMLkg=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/getpermissionpageLocation.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			u+2LjOt5zezAA4myvAnzKWJ5Wfc=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZUfGnqY7oXKAB49ozQSxKx6tVERsgvWqbV1wrujuAaU=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/initializingpageRunspectlogo.png</key>
@@ -662,11 +797,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BcYfzxF0DrHNLXhRfvDMccQZ3j8=
+			Eo7o3FxD831+4ugsoYFMuSbc1iE=
 			</data>
 			<key>hash2</key>
 			<data>
-			6EfgXPE+RNUfnF6V7ItagWhEj0FAnJMoG6B3GsmV4jw=
+			umMxYg3+Qs9dbhZ872rjFYbADjueEkb5w2jV7+nFPEw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

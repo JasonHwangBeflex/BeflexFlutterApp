@@ -1,16 +1,19 @@
 import 'dart:async';
 
+import 'package:BeflexFlutterApp/loginSignupPage.dart';
 import 'package:flutter/material.dart';
 import 'package:BeflexFlutterApp/homeScreen.dart';
 
 Color mainColor = Color.fromRGBO(236, 0, 58, 1);
+Color fontColor = Colors.white;
 
 void main() {
   runApp(new MaterialApp(
     debugShowCheckedModeBanner: false,
     home: new SplashScreen(),
     routes: <String, WidgetBuilder>{
-      '/HomeScreen': (BuildContext context) => new HomeScreen()
+      '/HomeScreen': (BuildContext context) => new HomeScreen(),
+      '/LoginSignup': (BuildContext context) => new LoginSignup()
     },
   ));
 }
