@@ -92,8 +92,8 @@ Widget bottomButton(BuildContext context) {
                   margin: EdgeInsets.only(bottom: 8),
                 ),
                 Container(
-                  child: ExtendedButton(
-                      context, 'Login', '', ButtonTypeEnum.whiteButton),
+                  child: ExtendedButton(context, 'Login', '/LoginPage',
+                      ButtonTypeEnum.whiteButton),
                   margin: EdgeInsets.only(bottom: 8),
                 ),
                 Container(

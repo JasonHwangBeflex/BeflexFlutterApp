@@ -10,7 +10,7 @@
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		t85rOXCFaAWpE/ELGvPLAHoixxI=
+		eyS+GH3ygpmIJA5dnSNeamYobCE=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -19,6 +19,14 @@
 		<key>flutter_assets/LICENSE</key>
 		<data>
 		kv8KV4I3oPP8VFVqiSus0qZmwxk=
+		</data>
+		<key>flutter_assets/assets/images/2.0x/Facebook.png</key>
+		<data>
+		7ekiDceZ0cMbFw2uyBrv+7xbQLU=
+		</data>
+		<key>flutter_assets/assets/images/2.0x/Google.png</key>
+		<data>
+		2+0TLC2DFxuc2MCm5D64qbi2Gzw=
 		</data>
 		<key>flutter_assets/assets/images/2.0x/StartImage.png</key>
 		<data>
@@ -40,6 +48,14 @@
 		<data>
 		VA3PqhtNJ/YkWNJzERA3Jh1bT2c=
 		</data>
+		<key>flutter_assets/assets/images/3.0x/Facebook.png</key>
+		<data>
+		jdFR8IZ2GoGM6Nhyg28jSvKaeM4=
+		</data>
+		<key>flutter_assets/assets/images/3.0x/Google.png</key>
+		<data>
+		GWRMlyFt1A+8XiMrMPGx6HZXI/M=
+		</data>
 		<key>flutter_assets/assets/images/3.0x/StartImage.png</key>
 		<data>
 		Bq+U+AXWJgS4nppyeH+ipih+G68=
@@ -59,6 +75,14 @@
 		<key>flutter_assets/assets/images/3.0x/initializingpageRunspectlogo.png</key>
 		<data>
 		IUueM9R8NV/4Ya4QjfiaQYm9Iqw=
+		</data>
+		<key>flutter_assets/assets/images/Facebook.png</key>
+		<data>
+		9l49YwMTNW0GTw4wBckgc9lSFDI=
+		</data>
+		<key>flutter_assets/assets/images/Google.png</key>
+		<data>
+		i8atDilsKXfP8pITofCfxiws9Z8=
 		</data>
 		<key>flutter_assets/assets/images/StartImage.png</key>
 		<data>
@@ -90,7 +114,7 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		Eo7o3FxD831+4ugsoYFMuSbc1iE=
+		OTrT3jlEDmhUcxcamp4Eejyu/hg=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -107,11 +131,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			t85rOXCFaAWpE/ELGvPLAHoixxI=
+			eyS+GH3ygpmIJA5dnSNeamYobCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			AMnh5QQVX5sLnZPMie4quSWrIMaKcdxOvSs2YBirKAc=
+			DcI6B6rvNAqGNcyfshd4WS5Xyq8VK+pRFol21LSTeyY=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -134,6 +158,28 @@
 			<key>hash2</key>
 			<data>
 			YTYe3cEmMHgQ34297RDzmQ5gfeMydeY8C1QQ0LlaCMY=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/2.0x/Facebook.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ekiDceZ0cMbFw2uyBrv+7xbQLU=
+			</data>
+			<key>hash2</key>
+			<data>
+			6jYbr0YO7HXjRwTX/rjk4UVmsprE75mb5xGWXIylddk=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/2.0x/Google.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2+0TLC2DFxuc2MCm5D64qbi2Gzw=
+			</data>
+			<key>hash2</key>
+			<data>
+			MOygeXnAcuG3S2rNxgxpUhuZNdR1cTXC5TtUFho0VEw=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/2.0x/StartImage.png</key>
@@ -191,6 +237,28 @@
 			LekyVwbzkCwOnFD3eJlOavluDTeIequBM7UEvxtM9zM=
 			</data>
 		</dict>
+		<key>flutter_assets/assets/images/3.0x/Facebook.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jdFR8IZ2GoGM6Nhyg28jSvKaeM4=
+			</data>
+			<key>hash2</key>
+			<data>
+			BHWyfBlczYhL2ulu3cWcnj9osW0PfACSG6vjivSMovU=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/3.0x/Google.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GWRMlyFt1A+8XiMrMPGx6HZXI/M=
+			</data>
+			<key>hash2</key>
+			<data>
+			JFtpav9PosZLysJ4pnUxZXcZB1Pf20fd4tVfu7JjV2w=
+			</data>
+		</dict>
 		<key>flutter_assets/assets/images/3.0x/StartImage.png</key>
 		<dict>
 			<key>hash</key>
@@ -244,6 +312,28 @@
 			<key>hash2</key>
 			<data>
 			moqR7sKfw+gVTtO/znBe9c6qJ/Mu21ccEDd5F6fFFwI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/Facebook.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9l49YwMTNW0GTw4wBckgc9lSFDI=
+			</data>
+			<key>hash2</key>
+			<data>
+			kI11wYABTxQHYopI9XS29AmuR27btAXT5XU0sJrWePI=
+			</data>
+		</dict>
+		<key>flutter_assets/assets/images/Google.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i8atDilsKXfP8pITofCfxiws9Z8=
+			</data>
+			<key>hash2</key>
+			<data>
+			NDXxsKVhDIplURZqsrSUVJMl0XdASZf3qyBGWfl6trY=
 			</data>
 		</dict>
 		<key>flutter_assets/assets/images/StartImage.png</key>
@@ -327,11 +417,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Eo7o3FxD831+4ugsoYFMuSbc1iE=
+			OTrT3jlEDmhUcxcamp4Eejyu/hg=
 			</data>
 			<key>hash2</key>
 			<data>
-			umMxYg3+Qs9dbhZ872rjFYbADjueEkb5w2jV7+nFPEw=
+			ICQkJJXosTM4atk6IZWAku3Q0v7mu2ldvPNkJ4Vf7hc=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

@@ -114,7 +114,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		+k4qGIAB7zaCzToR0JvMJhfhzQU=
+		evhXVWfR5YQp2HnaG108EX7TLdY=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -122,11 +122,11 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		U8p3PbMMeMydvfD9c7S+hIZcR7c=
+		WL3tkwlxzGoHm4t79+wX6e0r5DM=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		t85rOXCFaAWpE/ELGvPLAHoixxI=
+		eyS+GH3ygpmIJA5dnSNeamYobCE=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -135,6 +135,14 @@
 		<key>Frameworks/App.framework/flutter_assets/LICENSE</key>
 		<data>
 		kv8KV4I3oPP8VFVqiSus0qZmwxk=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/Facebook.png</key>
+		<data>
+		7ekiDceZ0cMbFw2uyBrv+7xbQLU=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/Google.png</key>
+		<data>
+		2+0TLC2DFxuc2MCm5D64qbi2Gzw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/StartImage.png</key>
 		<data>
@@ -156,6 +164,14 @@
 		<data>
 		VA3PqhtNJ/YkWNJzERA3Jh1bT2c=
 		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/Facebook.png</key>
+		<data>
+		jdFR8IZ2GoGM6Nhyg28jSvKaeM4=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/Google.png</key>
+		<data>
+		GWRMlyFt1A+8XiMrMPGx6HZXI/M=
+		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/StartImage.png</key>
 		<data>
 		Bq+U+AXWJgS4nppyeH+ipih+G68=
@@ -175,6 +191,14 @@
 		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/initializingpageRunspectlogo.png</key>
 		<data>
 		IUueM9R8NV/4Ya4QjfiaQYm9Iqw=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/Facebook.png</key>
+		<data>
+		9l49YwMTNW0GTw4wBckgc9lSFDI=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/Google.png</key>
+		<data>
+		i8atDilsKXfP8pITofCfxiws9Z8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/StartImage.png</key>
 		<data>
@@ -206,7 +230,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		Eo7o3FxD831+4ugsoYFMuSbc1iE=
+		OTrT3jlEDmhUcxcamp4Eejyu/hg=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -544,11 +568,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+k4qGIAB7zaCzToR0JvMJhfhzQU=
+			evhXVWfR5YQp2HnaG108EX7TLdY=
 			</data>
 			<key>hash2</key>
 			<data>
-			oac37gfpxMg1UCkz3Xil0L0RWvxEBiv9cGbOhSKRsCs=
+			jS7QR5wSa0i7YF+js42xQNC9NmrfMW6Zi85XIuW4fIs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -566,22 +590,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U8p3PbMMeMydvfD9c7S+hIZcR7c=
+			WL3tkwlxzGoHm4t79+wX6e0r5DM=
 			</data>
 			<key>hash2</key>
 			<data>
-			TvAVUCEqM7aTHnxjBSFc6rkCcCg3veIzwizV05htaWM=
+			tujacPxBBVVXz5zsFqDYM3HtE4hji0tf/urHXL28qYk=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			t85rOXCFaAWpE/ELGvPLAHoixxI=
+			eyS+GH3ygpmIJA5dnSNeamYobCE=
 			</data>
 			<key>hash2</key>
 			<data>
-			AMnh5QQVX5sLnZPMie4quSWrIMaKcdxOvSs2YBirKAc=
+			DcI6B6rvNAqGNcyfshd4WS5Xyq8VK+pRFol21LSTeyY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -604,6 +628,28 @@
 			<key>hash2</key>
 			<data>
 			YTYe3cEmMHgQ34297RDzmQ5gfeMydeY8C1QQ0LlaCMY=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/Facebook.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7ekiDceZ0cMbFw2uyBrv+7xbQLU=
+			</data>
+			<key>hash2</key>
+			<data>
+			6jYbr0YO7HXjRwTX/rjk4UVmsprE75mb5xGWXIylddk=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/Google.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2+0TLC2DFxuc2MCm5D64qbi2Gzw=
+			</data>
+			<key>hash2</key>
+			<data>
+			MOygeXnAcuG3S2rNxgxpUhuZNdR1cTXC5TtUFho0VEw=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/2.0x/StartImage.png</key>
@@ -661,6 +707,28 @@
 			LekyVwbzkCwOnFD3eJlOavluDTeIequBM7UEvxtM9zM=
 			</data>
 		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/Facebook.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jdFR8IZ2GoGM6Nhyg28jSvKaeM4=
+			</data>
+			<key>hash2</key>
+			<data>
+			BHWyfBlczYhL2ulu3cWcnj9osW0PfACSG6vjivSMovU=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/Google.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GWRMlyFt1A+8XiMrMPGx6HZXI/M=
+			</data>
+			<key>hash2</key>
+			<data>
+			JFtpav9PosZLysJ4pnUxZXcZB1Pf20fd4tVfu7JjV2w=
+			</data>
+		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/3.0x/StartImage.png</key>
 		<dict>
 			<key>hash</key>
@@ -714,6 +782,28 @@
 			<key>hash2</key>
 			<data>
 			moqR7sKfw+gVTtO/znBe9c6qJ/Mu21ccEDd5F6fFFwI=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/Facebook.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9l49YwMTNW0GTw4wBckgc9lSFDI=
+			</data>
+			<key>hash2</key>
+			<data>
+			kI11wYABTxQHYopI9XS29AmuR27btAXT5XU0sJrWePI=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/Google.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i8atDilsKXfP8pITofCfxiws9Z8=
+			</data>
+			<key>hash2</key>
+			<data>
+			NDXxsKVhDIplURZqsrSUVJMl0XdASZf3qyBGWfl6trY=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/StartImage.png</key>
@@ -797,11 +887,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Eo7o3FxD831+4ugsoYFMuSbc1iE=
+			OTrT3jlEDmhUcxcamp4Eejyu/hg=
 			</data>
 			<key>hash2</key>
 			<data>
-			umMxYg3+Qs9dbhZ872rjFYbADjueEkb5w2jV7+nFPEw=
+			ICQkJJXosTM4atk6IZWAku3Q0v7mu2ldvPNkJ4Vf7hc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

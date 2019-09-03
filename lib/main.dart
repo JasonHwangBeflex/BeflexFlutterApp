@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:BeflexFlutterApp/loginPage.dart';
 import 'package:BeflexFlutterApp/loginSignupPage.dart';
 import 'package:flutter/material.dart';
 import 'package:BeflexFlutterApp/homeScreen.dart';
@@ -13,7 +14,8 @@ void main() {
     home: new SplashScreen(),
     routes: <String, WidgetBuilder>{
       '/HomeScreen': (BuildContext context) => new HomeScreen(),
-      '/LoginSignup': (BuildContext context) => new LoginSignup()
+      '/LoginSignup': (BuildContext context) => new LoginSignup(),
+      '/LoginPage': (BuildContext context) => new LoginPage(),
     },
   ));
 }
@@ -26,7 +28,7 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   startTime() async {
-    var _duration = new Duration(seconds: 10);
+    var _duration = new Duration(seconds: 2);
     return new Timer(_duration, navigationPage);
   }
 
