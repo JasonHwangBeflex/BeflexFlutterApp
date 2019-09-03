@@ -1,12 +1,10 @@
 import 'dart:async';
 
+import 'package:BeflexFlutterApp/beflexColorTheme.dart';
 import 'package:BeflexFlutterApp/loginPage.dart';
 import 'package:BeflexFlutterApp/loginSignupPage.dart';
 import 'package:flutter/material.dart';
 import 'package:BeflexFlutterApp/homeScreen.dart';
-
-Color mainColor = Color.fromRGBO(236, 0, 58, 1);
-Color fontColor = Colors.white;
 
 void main() {
   runApp(new MaterialApp(
@@ -45,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
-      backgroundColor: Color.fromRGBO(236, 0, 58, 1),
+      backgroundColor: mainBeflexRed,
       body: new Flex(
         direction: Axis.vertical,
         mainAxisAlignment: MainAxisAlignment.spaceBetween,

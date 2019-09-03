@@ -1,7 +1,6 @@
-import 'package:BeflexFlutterApp/main.dart';
 import 'package:flutter/material.dart';
-
-import 'homeScreen.dart';
+import 'widgets/extendedButton.dart';
+import 'beflexColorTheme.dart';
 
 String assetPath = 'assets/images/';
 
@@ -15,7 +14,7 @@ class _LoginSignupState extends State<LoginSignup> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      color: mainColor,
+      color: mainBeflexRed,
       home: new Scaffold(
         body: loginSignupBackGround(context),
       ),
@@ -60,7 +59,7 @@ Widget mainTitle() {
             child: Text(
               'Analyze your running form and injury risk',
               style: TextStyle(
-                color: fontColor,
+                color: whiteFontColor,
                 fontSize: 14,
               ),
             ),
@@ -83,7 +82,7 @@ Widget bottomButton(BuildContext context) {
           Container(
             width: MediaQuery.of(context).size.width,
             padding: EdgeInsets.only(top: 18),
-            color: mainBackgroundColor,
+            color: whiteBackgroundColor,
             child: Flex(
               direction: Axis.vertical,
               children: <Widget>[
@@ -102,7 +101,7 @@ Widget bottomButton(BuildContext context) {
                       'Terms / Privacy Policy',
                       style: TextStyle(
                           fontSize: 16,
-                          color: mainColor,
+                          color: mainBeflexRed,
                           fontWeight: FontWeight.bold),
                     ),
                     onTap: () => 'Terms privacy',

@@ -4,14 +4,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
+import 'widgets/extendedButton.dart';
+import 'beflexColorTheme.dart';
 import 'main.dart';
-
-Color mainBackgroundColor = Colors.white;
-
-enum ButtonTypeEnum {
-  redButton,
-  whiteButton,
-}
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -31,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return new MaterialApp(
       debugShowCheckedModeBanner: false,
-      color: mainBackgroundColor,
+      color: whiteBackgroundColor,
       home: new Scaffold(
         body: GrantPermissionBody(context),
       ),
@@ -74,68 +69,6 @@ Widget GrantPermissionBody(BuildContext context) {
         margin: EdgeInsets.only(bottom: 32),
       )
     ],
-  );
-}
-
-Widget ExtendedButton(BuildContext context, String buttonText, String navPath,
-    [ButtonTypeEnum buttonType]) {
-  void onPressedEvent(navPath) {
-    Navigator.of(context).pushReplacementNamed(navPath);
-  }
-
-  Color buttonColor(buttonType) {
-    switch (buttonType) {
-      case ButtonTypeEnum.redButton:
-        return mainColor;
-      case ButtonTypeEnum.whiteButton:
-        return Colors.white;
-      default:
-        return mainColor;
-    }
-  }
-
-  Color buttonTextColor(buttonType) {
-    switch (buttonType) {
-      case ButtonTypeEnum.redButton:
-        return mainBackgroundColor;
-      case ButtonTypeEnum.whiteButton:
-        return mainColor;
-      default:
-        return mainBackgroundColor;
-    }
-  }
-
-  Color buttonBorderColor(buttonType) {
-    switch (buttonType) {
-      case ButtonTypeEnum.redButton:
-        return Colors.transparent;
-      case ButtonTypeEnum.whiteButton:
-        return mainColor;
-      default:
-        return Colors.transparent;
-    }
-  }
-
-  return new Container(
-    child: ButtonTheme(
-      minWidth: MediaQuery.of(context).size.width - 32,
-      height: 52,
-      child: FlatButton(
-        color: buttonColor(buttonType),
-        onPressed: () => onPressedEvent(navPath),
-        child: Text(
-          buttonText,
-          style: TextStyle(
-            fontSize: 18,
-            color: buttonTextColor(buttonType),
-          ),
-        ),
-        shape: RoundedRectangleBorder(
-          borderRadius: new BorderRadius.circular(50.0),
-          side: BorderSide(color: buttonBorderColor(buttonType), width: 2),
-        ),
-      ),
-    ),
   );
 }
 
