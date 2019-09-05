@@ -4,7 +4,7 @@ import '../beflexColorTheme.dart';
 Widget modalCancelInkwell(BuildContext context, String labelText) {
   return Container(
       width: MediaQuery.of(context).size.width,
-      margin: EdgeInsets.only(top: 50, right: 15),
+      margin: EdgeInsets.only(top: 30, right: 15),
       child: Flex(
         direction: Axis.horizontal,
         mainAxisAlignment: MainAxisAlignment.end,

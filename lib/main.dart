@@ -13,7 +13,6 @@ void main() {
     routes: <String, WidgetBuilder>{
       '/HomeScreen': (BuildContext context) => new HomeScreen(),
       '/LoginSignup': (BuildContext context) => new LoginSignup(),
-      '/LoginPage': (BuildContext context) => new LoginPage(),
     },
   ));
 }
@@ -26,12 +25,12 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   startTime() async {
-    var _duration = new Duration(seconds: 2);
+    var _duration = new Duration(seconds: 5);
     return new Timer(_duration, navigationPage);
   }
 
   void navigationPage() {
-    Navigator.of(context).pushReplacementNamed('/HomeScreen');
+    Navigator.of(context).pushReplacement(new HomeScreenRoute());
   }
 
   @override

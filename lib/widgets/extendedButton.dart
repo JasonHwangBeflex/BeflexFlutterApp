@@ -1,8 +1,12 @@
+import 'package:BeflexFlutterApp/widgets/termsPopup.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../beflexColorTheme.dart';
 import '../loginSignupPage.dart';
 
-enum ButtonTypeEnum {
+enum buttonTypeEnum { navigationButton, popupButton }
+
+enum ButtonColorEnum {
   redButton,
   whiteButton,
 }
@@ -10,17 +14,33 @@ enum ButtonTypeEnum {
 enum socialButtonType { FaceBookButton, GoogleButton }
 
 // Normal Extended button
-Widget ExtendedButton(BuildContext context, String buttonText, String navPath,
-    [ButtonTypeEnum buttonType]) {
-  void onPressedEvent(navPath) {
-    Navigator.of(context).pushNamed(navPath);
+Widget ExtendedButton(
+  BuildContext context,
+  String buttonText,
+  Route navPath, [
+  ButtonColorEnum buttonType,
+  buttonTypeEnum buttonFunc,
+]) {
+  void onPressedEvent(
+      Route navPath, BuildContext context, buttonTypeEnum buttonFunc) {
+    switch (buttonFunc) {
+      case buttonTypeEnum.navigationButton:
+        Navigator.of(context).push(navPath);
+        return;
+      case buttonTypeEnum.popupButton:
+        showDialog(context: context, child: termsMain(context));
+        return;
+      default:
+        Navigator.of(context).push(navPath);
+        return;
+    }
   }
 
   Color buttonColor(buttonType) {
     switch (buttonType) {
-      case ButtonTypeEnum.redButton:
+      case ButtonColorEnum.redButton:
         return mainBeflexRed;
-      case ButtonTypeEnum.whiteButton:
+      case ButtonColorEnum.whiteButton:
         return Colors.white;
       default:
         return mainBeflexRed;
@@ -29,9 +49,9 @@ Widget ExtendedButton(BuildContext context, String buttonText, String navPath,
 
   Color buttonTextColor(buttonType) {
     switch (buttonType) {
-      case ButtonTypeEnum.redButton:
+      case ButtonColorEnum.redButton:
         return whiteBackgroundColor;
-      case ButtonTypeEnum.whiteButton:
+      case ButtonColorEnum.whiteButton:
         return mainBeflexRed;
       default:
         return whiteBackgroundColor;
@@ -40,9 +60,9 @@ Widget ExtendedButton(BuildContext context, String buttonText, String navPath,
 
   Color buttonBorderColor(buttonType) {
     switch (buttonType) {
-      case ButtonTypeEnum.redButton:
+      case ButtonColorEnum.redButton:
         return transparent;
-      case ButtonTypeEnum.whiteButton:
+      case ButtonColorEnum.whiteButton:
         return mainBeflexRed;
       default:
         return transparent;
@@ -55,7 +75,7 @@ Widget ExtendedButton(BuildContext context, String buttonText, String navPath,
       height: 52,
       child: FlatButton(
         color: buttonColor(buttonType),
-        onPressed: () => onPressedEvent(navPath),
+        onPressed: () => onPressedEvent(navPath, context, buttonFunc),
         child: Text(
           buttonText,
           style: TextStyle(

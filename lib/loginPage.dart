@@ -1,9 +1,27 @@
 import 'package:BeflexFlutterApp/widgets/cancelNavInkwell.dart';
 import 'package:BeflexFlutterApp/widgets/loginField.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'beflexColorTheme.dart';
 import 'widgets/extendedButton.dart';
+
+class LoginPageRoute extends CupertinoPageRoute {
+  LoginPageRoute() : super(builder: (BuildContext context) => new LoginPage());
+
+  // OPTIONAL IF YOU WISH TO HAVE SOME EXTRA ANIMATION WHILE ROUTING
+  @override
+  Widget buildPage(BuildContext context, Animation<double> animation,
+      Animation<double> secondaryAnimation) {
+    var begin = Offset(0.0, 1.0);
+    var end = Offset.zero;
+    var curve = Curves.ease;
+    var tween = Tween(begin: begin, end: end).chain(CurveTween(curve: curve));
+
+    return new SlideTransition(
+        position: animation.drive(tween), child: new LoginPage());
+  }
+}
 
 class LoginPage extends StatefulWidget {
   @override
@@ -23,8 +41,12 @@ class _LoginPageState extends State<LoginPage> {
 }
 
 Widget main(BuildContext context) {
-  return Stack(
-    children: <Widget>[MainContent(context), LoginButton(context)],
+  return SingleChildScrollView(
+    child: Container(
+      child: Stack(
+        children: <Widget>[MainContent(context), LoginButton(context)],
+      ),
+    ),
   );
 }
 
@@ -129,11 +151,13 @@ Widget LoginBlock(BuildContext context) {
 Widget LoginButton(BuildContext context) {
   return Container(
     width: MediaQuery.of(context).size.width,
-    margin: EdgeInsets.only(bottom: 50),
+    height: MediaQuery.of(context).size.height,
+    padding: EdgeInsets.only(bottom: 50),
     child: Flex(
       direction: Axis.vertical,
       mainAxisAlignment: MainAxisAlignment.end,
       crossAxisAlignment: CrossAxisAlignment.center,
+      mainAxisSize: MainAxisSize.max,
       children: <Widget>[
         Container(
           margin: EdgeInsets.only(bottom: 17),
@@ -149,7 +173,7 @@ Widget LoginButton(BuildContext context) {
             onTap: () => '',
           ),
         ),
-        Container(child: ExtendedButton(context, 'Login', ''))
+        Container(child: ExtendedButton(context, 'Login', new LoginPageRoute()))
       ],
     ),
   );

@@ -1,8 +1,22 @@
+import 'package:BeflexFlutterApp/loginPage.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'widgets/extendedButton.dart';
 import 'beflexColorTheme.dart';
 
 String assetPath = 'assets/images/';
+
+class LoginSignupRoute extends CupertinoPageRoute {
+  LoginSignupRoute()
+      : super(builder: (BuildContext context) => new LoginSignup());
+
+  // OPTIONAL IF YOU WISH TO HAVE SOME EXTRA ANIMATION WHILE ROUTING
+  @override
+  Widget buildPage(BuildContext context, Animation<double> animation,
+      Animation<double> secondaryAnimation) {
+    return new FadeTransition(opacity: animation, child: new LoginSignup());
+  }
+}
 
 class LoginSignup extends StatefulWidget {
   @override
@@ -87,12 +101,12 @@ Widget bottomButton(BuildContext context) {
               direction: Axis.vertical,
               children: <Widget>[
                 Container(
-                  child: ExtendedButton(context, 'Sign Up', ''),
+                  child: ExtendedButton(context, 'Sign Up', new LoginPageRoute(), ButtonColorEnum.redButton, buttonTypeEnum.popupButton),
                   margin: EdgeInsets.only(bottom: 8),
                 ),
                 Container(
-                  child: ExtendedButton(context, 'Login', '/LoginPage',
-                      ButtonTypeEnum.whiteButton),
+                  child: ExtendedButton(context, 'Login', new LoginPageRoute(),
+                      ButtonColorEnum.whiteButton),
                   margin: EdgeInsets.only(bottom: 8),
                 ),
                 Container(

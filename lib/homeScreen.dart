@@ -4,9 +4,22 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
+import 'loginSignupPage.dart';
 import 'widgets/extendedButton.dart';
 import 'beflexColorTheme.dart';
 import 'main.dart';
+
+class HomeScreenRoute extends CupertinoPageRoute {
+  HomeScreenRoute()
+      : super(builder: (BuildContext context) => new HomeScreen());
+
+  // OPTIONAL IF YOU WISH TO HAVE SOME EXTRA ANIMATION WHILE ROUTING
+  @override
+  Widget buildPage(BuildContext context, Animation<double> animation,
+      Animation<double> secondaryAnimation) {
+    return new FadeTransition(opacity: animation, child: new HomeScreen());
+  }
+}
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -65,7 +78,7 @@ Widget GrantPermissionBody(BuildContext context) {
     children: <Widget>[
       mainContent(),
       Container(
-        child: ExtendedButton(context, 'Continue', '/LoginSignup'),
+        child: ExtendedButton(context, 'Continue', new LoginSignupRoute()),
         margin: EdgeInsets.only(bottom: 32),
       )
     ],
